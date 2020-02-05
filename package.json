@@ -25,7 +25,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.12",
     "@fortawesome/react-fontawesome": "0.0.19",
     "@tinymce/tinymce-react": "^2.2.5",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-core": "6.26.3",
     "babel-loader": "7.1.4",
     "babel-plugin-transform-class-properties": "6.24.1",
