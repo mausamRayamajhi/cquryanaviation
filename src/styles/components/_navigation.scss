@@ -1,0 +1,131 @@
+.nav-menu-btn{
+    font-size:70%;
+    color:#fff;
+    cursor:pointer;
+}
+
+.navbar{
+    margin-bottom: 0;
+    min-height: 50px;
+   // border-bottom: 1px solid #8d8686;
+    border-radius: 0;
+   // background: rgba(72, 85, 99, 0.8);
+}
+// .navbar-trans {
+//     border-bottom: none;
+//     background: transparent;
+//     -webkit-transition: background 0.3s;
+//     transition: background 0.3s;
+// }
+
+
+// .dropdown-menu {
+//     background-color: rgba(33, 39, 67, 0.92);
+// }
+// .navbar-trans .dropdown-menu {
+//     background-color: rgba(33, 39, 67, 0.521);
+// }
+.dropdown-item {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.navbar .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #d7d7d7 !important;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    margin-right: 10px;
+}
+.navbar .navbar-nav li a:hover {
+    background: none;
+    // color: #111;
+
+    color: #0abde3 !important;
+    border-bottom: 1px solid #0abde3;
+}
+
+.dropdown-item.active, .dropdown-item:focus {
+    background-color: #559eed;
+}
+
+.navbar .navbar-nav .active a {
+    background: none;
+    color: #111;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.brand-color-white{
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.active {
+    color: #000;
+    // border-radius: 7%;
+    border-bottom: 1px solid #0abde3;
+}
+.first-link {
+    background-color: transparent;
+    color: #999 !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+/////Headroam////
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+   z-index: 1;
+  }
+  .headroom--unfixed {
+    position: fixed ;
+    transform: translateY(0);
+  
+        .navbar .navbar-nav li a {
+            color: #d7d7d7 ;
+        }
+
+  }
+
+  .headroom--scrolled {
+    transition: transform 200ms linear;
+  }
+
+  .headroom--unpinned {
+    position: fixed !important;
+    transform: translateY(-100%);
+
+
+    background: white !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+    .navbar .navbar-nav li a {
+        color: black !important;
+    }
+    .userIcon svg:not(:root).svg-inline--fa {
+        color: black;
+    }
+   
+  }
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+    background: white !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+    .navbar .navbar-nav li a {
+        color: black !important;
+    }
+    .userIcon svg:not(:root).svg-inline--fa { 
+        color: black;
+    }
+  }
+

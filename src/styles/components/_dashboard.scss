@@ -1,0 +1,238 @@
+
+// // Fixes some scrollbar due to bootstrap row margin
+// .admin-wrapper .row {
+//     margin-right: 0;
+// }
+
+// // Admin naviagation and dashboard
+// .sidebar-nav{
+//     height: 100%;
+//     width: 110%;
+//     background-color: #404a4f;
+//     overflow: hidden;
+//     transition: 0.5s width ease-in-out;
+// }
+
+// .sidebar-nav:hover {
+//     width: 150%;
+// }
+// .sidebar-nav:hover .nav_title{
+
+//    display: inline;
+// }
+
+// .nav_title{
+//     display: none;
+// }
+
+// .sidebar-nav li {
+//     text-indent: 25px;
+//     line-height: 25px;
+//   }
+  
+//   .sidebar-nav li a {
+//     display: block;
+//     text-decoration: none;
+//     color: #999999;
+//   }
+  
+//   .sidebar-nav li a:hover {
+//     text-decoration: none;
+//     color: #fff;
+//     background: rgba(255, 255, 255, 0.2);
+//   }
+  
+//   .sidebar-nav li a:active, .sidebar-nav li a:focus {
+//     text-decoration: none;
+//   }
+// .dash-nav-dropdown {
+//     color: #999999 !important;
+//     cursor: pointer;
+// }
+// .dash-nav-dropdown:hover {
+//     color: #07c3e4 !important;
+// }
+// .dash-nav-sub-item {
+//     display: block;
+//     font-size: 90%;
+//     transition: 0.5s;
+// }
+
+.sidebar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+  .sidebar-nav-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px; /* Height of navbar */
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar-nav .nav-link {
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar-nav .nav-link svg {
+    margin-right: 0.5rem;
+    color: #999;
+  }
+  
+  .sidebar-nav .nav-link.active {
+    color: #007bff;
+  }
+  .sidebar-nav .active {
+      border-bottom: 0;
+  }
+
+.main-form {
+    padding-top: 2%;
+}
+.input-form textarea{
+    width: 100%;
+}
+
+.file-upload {
+    min-height: 50vh;
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(102, 102, 102);
+    border-style: dashed;
+    border-radius: 5px;
+}
+.modal-file-list {
+    position: relative;
+    cursor: pointer;
+    height: 12rem;
+    padding-bottom: 2%;
+    overflow: hidden;
+    opacity: 0.4;
+}
+.file-img-box {
+    max-height: 10rem;
+}
+.modal-file-list:hover {
+    opacity: 1;
+}
+.modal-file-list img{
+    // max-height: 90%;
+}
+.selection {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-45%,-50%);
+}
+
+.selection svg {
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: rgb(23, 70, 48);
+    color:  rgb(32, 211, 32);
+}
+.cropper-container {
+    margin: 0 auto;
+}
+
+.list-item-div {
+    border-bottom: 2px solid #dfdfdf;
+    border-style: outset;
+}
+.page-active {
+    background-color: #007bff;
+    color:#fff;
+}
+.page-active:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.textarea-wd100 {
+    width: 100%;
+}
+.embed-view {
+    height: 50vh;
+    width: 55%;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.displayErrors input:invalid, .displayErrors textarea {
+    border-color: rgba(255, 0, 0, 0.7);
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+  }
+
+
+  .applicationDisplay .form-group {
+    border: 1px solid #477692;
+    margin: 0 auto;
+  }
+
+//   switch toggler
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+// ---------------------------------

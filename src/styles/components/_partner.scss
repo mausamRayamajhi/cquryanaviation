@@ -1,0 +1,45 @@
+
+.content-partner {
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 0 5%;
+}
+
+.content-partner img {
+    width: 80%;
+}
+
+.content-partner div {
+    padding: 0;
+}
+
+.content-partner p {
+    text-align: left;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding: 0% 7%;
+}
+
+.uni-partner-section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #283048;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.uni-partner-section h2 {
+    color: #fff;
+    padding-bottom: 1%;
+}
+
+.uni-partner div {
+    padding: 2%;
+    margin: 1% 2%;
+    border: 1px solid #0abde3;
+    box-shadow: -7px -7px 4px #0abde3, 1px 1px 2px #0abde3;
+    color: #fff;
+}

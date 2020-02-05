@@ -1,0 +1,49 @@
+.side_menu{
+    background: red;
+    height: 100Vh;
+    width: 65px;
+    transition: 0.2s linear;
+}
+
+.side_menu:hover {
+    width: 150px;
+ 
+}
+.side_menu:hover .nav_title{
+
+   display: inline;
+}
+
+.nav_title{
+    display: none;
+}
+.row_color{
+   // background: red;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.col_color_1{
+    background: yellow;
+}
+
+.col_color_2{
+    background: white;
+}
+.counter_title{
+    padding: 10px;
+}
+.your-class{
+    height: 80vh;
+}
+
+.outer{
+    position: relative ;
+}
+.inner{
+    position: absolute;
+    top: 0;
+}
+.custom-class{
+    background-color: rgba(4, 103, 40, 0.5);
+}

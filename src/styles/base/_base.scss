@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    // background-color: #fff;    
+    // color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    /* font-weight: 300; */
+    /* font-size: 1rem; */
+    text-rendering: optimizeLegibility;
+}
+html, body {
+    height: 100%;
+}
+
+// TO fix Tinymce Editor full screen Problem
+div.mce-fullscreen {
+    z-index: 1050;
+    top: 55px!important;
+    left: 231px!important;
+    right: 230px !important;
+    width: calc(100% - 231px) !important;
+}
+// .dash-main-content {
+//     overflow: auto; 
+//     max-height: 100vh;
+// }
+// -----------------------
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+// p {
+//         line-height: 145%;
+//         margin-bottom: 1%;
+//         letter-spacing: 1px;  
+// }
+
+.parsed-html {
+    padding: 1%;
+}
+.parsed-html table{
+    width: auto !important;
+}
+.parsed-html table td {
+    padding: 2%;
+}
+
+.border {
+    border: 1px solid rgb(78, 78, 78);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8)
+}
+.original-format {
+    white-space: pre-wrap;
+}
+.link {
+    color: #007bff !important;
+}
+.d-file {
+    cursor: pointer;
+}
+.link:hover {
+    text-decoration: underline !important;
+}
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    letter-spacing: 1px;
+}
+.clear-fix {
+    clear: both;
+}
+
+.text-pg-content {
+    padding: 4% 2%;
+    color: #fff;
+    background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* ------------- Section with black type background -------------- */
+
+.section-img-component {
+    background: #283048;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.section-img-content {
+    padding: 0 2% 4% 2%;
+    color: #fff;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+
+
+/* ------------- Section with white background image -------------- */
+
+.section-bg-component {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+    margin: 0 auto;
+    text-align: center;
+    background-attachment: fixed;
+    padding-top: 2%;
+}
+.section-bg-component h2{
+    margin-bottom: 1%;
+}
+.section-bg-content {
+    padding: 0 2% 1% 2%;
+    color: #000;
+}
+
+// section-header-first with back background
+
+.section-header-first {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    
+    margin: 0 auto;
+    text-align: center;
+
+    height: 80%;
+    background: #283048;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section-header-first h4{
+    color: #fff;
+    margin-bottom: 1%;
+}
+.section-header-first p{
+    text-align: left;
+    color: #fff;
+}
+
+
+// section-header-first with back background
+
+.section-bg-first {
+    padding-top: 4%;
+    padding-bottom: 5%;
+    
+    margin: 0 auto;
+    text-align: center;
+
+    min-height: 90vh;
+    height: 80%;
+
+}
+.section-bg-first h4, .section-bg-first h2 {
+    margin-bottom: 1%;
+}
+.section-bg-first p{
+    text-align: left;
+}
+
+.pd-div{
+    min-height: 90vh;
+}
+
+.content_loaders {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+
+    
+.content_loader {
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+
+
+    //this is usericon when userloign========
+   .userIcon svg:not(:root).svg-inline--fa {
+        position: absolute;
+        font-size: 38px;
+        top: 0;
+        right: 1px;
+        color: white;
+        overflow: visible;
+    }
+    // ========================================
+

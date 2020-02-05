@@ -1,0 +1,26 @@
+
+/* ---------------------- Footer section ------------------- */
+
+.footer {
+    padding: 1%;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.footer-nav li a {
+    color: #fff;
+}
+
+.footer-nav li a:hover {
+    color: #0abde3;
+}

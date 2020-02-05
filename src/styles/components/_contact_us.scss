@@ -1,0 +1,41 @@
+.pg-content {
+    padding: 4% 2%;
+    color: #fff; // background: #485563;
+    // /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #29323c, #485563);
+    // /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #29323c, #485563);
+    // /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-form {
+    padding: 4% 5%;
+    text-align: left;
+    border-radius: 3%;
+    background-color: #fff;
+    color: #000;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.our-location {
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+
+.our-location div {
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 1px 2px 8px rgba(7, 7, 7, 0.7), -1px -2px 8px rgba(7, 7, 7, 0.7);
+    border-radius: 5%;
+}
+
+.our-location h4 {
+    padding: 7%;
+    font-size: 110%;
+}
+
+.our-location h4::after {
+    margin-top: 3%;
+}

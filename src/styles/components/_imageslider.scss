@@ -1,0 +1,47 @@
+// .imageSlider{
+//     //background-image: linear-gradient(rgba(41, 41, 41, 0.6), rgba(48, 48, 48, 0.6)), url(../assets/images/fjord.jpg);
+//     width: 100%;
+//     height: 80vh;
+//     background-size: cover;
+//     background-position: 50%;
+//     background-attachment: fixed;
+// }
+
+
+.lazy_hero_main{
+position: relative;
+}
+
+.lazy_hero_subtitle{
+position: absolute;
+letter-spacing: 4px;
+top: 70px;
+}
+.cd-words-wrapper {
+    top: -18px;
+}
+
+
+.main-text {
+    color: #fff;
+    position: absolute;
+    top: 35vh;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.image-info {
+    font-weight: 400;
+    word-spacing: 2px;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.main-text .btn {
+    letter-spacing: 1px;
+    border-radius: 200px;
+    margin-top: 2%;
+}

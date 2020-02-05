@@ -1,0 +1,40 @@
+.news-content {
+    background-color: rgba(241, 241, 241, 0.4);
+    padding: 2% 5%;
+}
+.news-first-h4:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.news-content .fea-info h3 {
+    text-transform: none;
+}
+.announcement-news {
+    padding: 3% 7%;
+}
+.announcement-news p{
+
+    word-break: break-word;
+    text-align: center;
+    font-size: 80% !important;
+    letter-spacing: 0.3px;
+    word-spacing: 0.8px;
+    // padding: 2%;
+
+     /* Setting maxium of 5 lines; 18px * 5 lines = 90px */
+    //  overflow: hidden;
+    //  text-overflow: ellipsis;
+    //  display: -webkit-box;
+    //  line-height: 18px;
+    //  /* fallback */
+    //  max-height: 126px;
+    //  /* fallback */
+    //  -webkit-line-clamp: 7;
+    //  /* number of lines to show */
+    //  -webkit-box-orient: vertical;
+}
+.announcement-news h3 {
+    padding-bottom: 0;
+    height: 8rem;
+}
