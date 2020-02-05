@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mausamrayamajhi.github.io/cquryanaviation/"
   "name": "iaeste-website",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,6 +9,8 @@
     "node": "10.13.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
