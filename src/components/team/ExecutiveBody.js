@@ -65,14 +65,14 @@ class ExecutiveBody extends React.Component {
                                     <div className="t-description">
                                         <div className="content-wrapper">
                                             <h4 className="h-alt">Hello!</h4>
-                                            <p >My name is Manjil.<br />student id :12123219 </p>
+                                            <p >My name is Manjil pokhrel.<br />student id :12129419 </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="card-body">
                                     <div className="t-info">
-                                        <h4 className="t-name">Manjil</h4>
-                                        <span className="t-role">12123219</span>
+                                        <h4 className="t-name">Manjil pokhrel</h4>
+                                        <span className="t-role">12129419</span>
                                         {/* <ul className="social-links">
                                             {team.facebook && <li><a href={team.facebook} target="_blank" ><i className="fa fa-facebook"></i></a></li>}
                                             {team.twitter && <li><a href={team.twitter} target="_blank"><i className="fa fa-twitter"></i></a></li>}
